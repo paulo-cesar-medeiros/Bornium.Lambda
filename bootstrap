@@ -1,2 +1,5 @@
 #!/bin/sh
-./lambda-go
+set -euo pipefail
+
+# Execute o binário da aplicação Go
+/var/task/lambda-go
